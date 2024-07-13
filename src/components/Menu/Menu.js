@@ -1,14 +1,14 @@
 import React from 'react';
 import "./Menu.css";
 import { Link} from 'react-scroll';
-import Zoom from 'react-reveal';
-import Fade from 'react-reveal';
+// import Zoom from 'react-reveal';
+// import Fade from 'react-reveal';
 import img1 from "../../assets/images/WhatsApp Image 2023-12-16 at 12.50.08_a7fd8acf.jpg"
 import {FcAbout, FcBiotech, FcBusinessContact, FcHome, FcPortraitMode, FcReadingEbook, FcVideoProjector, FcVoicePresentation} from 'react-icons/fc'
 const Menu = ({toggle}) => {
   return (
     <>
-    <Zoom>
+    {/* <Zoom> */}
     {toggle&& (
     <div className="navbar-profile-pic">
     <img src={img1}/>
@@ -17,8 +17,8 @@ const Menu = ({toggle}) => {
    
     )
     }
-    </Zoom>
-    <Fade>
+    {/* </Zoom> */}
+    {/* <Fade> */}
  <div className="nav-items">
     <div className="nav-item">
         <div className="nav-link">
@@ -87,7 +87,7 @@ const Menu = ({toggle}) => {
     
  </div>
     
-  </Fade>
+  {/* </Fade> */}
     </>
   )
 }

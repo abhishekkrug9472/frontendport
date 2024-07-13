@@ -1,11 +1,11 @@
 import React from 'react'
 import './About.css';
-import Bounce from 'react-reveal';
+// import Bounce from 'react-reveal';
 import img3 from "../../assets/images/WhatsApp Image 2023-12-16 at 12.50.08_a7fd8acf.jpg"
 const About = () => {
   return (
     <>
-    <Bounce>
+    {/* <Bounce> */}
 
    
     <div className="about" id="about">
@@ -25,7 +25,7 @@ I am a tech enthusiast , pursuing Bachelor of Technology (B.Tech) in Electronics
     </div>
       
     </div>
-    </Bounce>
+    {/* </Bounce> */}
     </>
   )
 }

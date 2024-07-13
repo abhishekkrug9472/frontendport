@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css';
-import Fade from 'react-reveal';
+// import Fade from 'react-reveal';
 import { UseTheme } from '../../context/ThemeContext';
 import Resume from '../../assets/docs/ABHISHEK_FINAL YEAR _2104043.pdf'
 import Typewriter from 'typewriter-effect';
@@ -17,7 +17,7 @@ const home = () => {
     </div>
     <div className="container home-content">
        
-<Fade right >
+{/* <Fade right > */}
 
 
     
@@ -32,8 +32,8 @@ const home = () => {
 /> 
 
       </h1>
-      </Fade>
-      <Fade button>
+      {/* </Fade>
+      <Fade button> */}
      
     <div className="home-buttons">
     <a className='btn btn-hire'href="https://api.whatsapp.com/send?phone=9472518518" rel="noreferrer"target="_blank">Hire Me</a>
@@ -41,7 +41,7 @@ const home = () => {
 <a className="btn btn-cv" href={Resume} download="My_Name.pdf">My Resume</a>
     </div>  
        
-    </Fade>
+    {/* </Fade> */}
       </div>
     </div>
   )
